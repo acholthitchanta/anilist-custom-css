@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name         AniList custom css
+@namespace    github.com/acholthitchanta/anilist-custom-css
+@version      1.0
+@description  custom theme for AniList
+@author       acholthitchanta
+@homepageURL  https://github.com/acholthitchanta/anilist-custom-css
+@supportURL   https://github.com/acholthitchanta/anilist-custom-css/issues
+@updateURL    https://github.com/acholthitchanta/anilist-custom-css/raw/main/anilist-custom-css.user.css
+==/UserStyle== */
+
 /* Background image (change the URL to change the image) */
 body {
     background: rgb(var(--color-background)) url("[BACKGROUND IMAGE URL HERE") center/100% fixed;
