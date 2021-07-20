@@ -1,4 +1,4 @@
-# anilist-custom-css
+# asiandisappointment-custom-css
 My custom dark mode theme on anilist
 
 ## Steps
