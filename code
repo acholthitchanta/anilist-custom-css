@@ -18,17 +18,26 @@ body {
 
 /* name tag */
 .name[data-v-4f7beb35]::after {
-    content: "boba enjoyer";
+    content: "YOUR TEXT HERE";
     position: relative;
+    top: -3px;
     left: 10px;
-    top: -1px;
-    background: rgba(119, 159, 199);
+    background: rgb(124, 165, 207);
     border-radius: 4px;
-    color: rgba(25, 26, 28, 1);
+    color: rgba(255, 255, 255);
     padding: 5px 5px;
     margin-bottom: 20px;
     margin-right: 16px;
     font-size: 1.2rem;
+    animation: rainbow 10s infinite linear;
+      animation-duration: 10s;
+      animation-timing-function: linear;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-fill-mode: none;
+      animation-play-state: running;
+      animation-name: rainbow;
 }
 
 /* avatar animation */
