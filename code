@@ -16,8 +16,9 @@ body {
     background-size: cover !important;
 }
 
+/* name tag */
 .name[data-v-4f7beb35]::after {
-    content: "ENTER TEXT HERE";
+    content: "boba enjoyer";
     position: relative;
     left: 10px;
     top: -1px;
@@ -30,12 +31,14 @@ body {
     font-size: 1.2rem;
 }
 
+/* avatar animation */
 .avatar:hover {
     transition: 0.5s;
     transform: scale(1.1);
     transform-style: preserve-3d;
 }
 
+/* name animation */
 .name:hover {
     transition: 0.5s;
     transform: scale(1.1);
@@ -46,11 +49,13 @@ body {
     background: rgba(0, 0, 0, 0);
 }
 
+/* favorites animation */
 .favourite:hover {
     transition: 0s;
     transform: scale(1.2);
     transform-style: preserve-3d;
 }
+/* color scheme */
 
 .site-theme-dark {
     --color-foreground: 22, 27, 33;
@@ -61,6 +66,7 @@ body {
     --color-background-200: 17,19,20;
 }
 
+/* header option colors */
 .site-theme-dark .nav-unscoped.transparent {
     background: rgba(22, 27, 33,.5);
 }
@@ -69,33 +75,36 @@ body {
     background: rgba(22, 27, 33);
 }    
 
+/* stat value font */
 .stat .value[data-v-815ccddc] {
     font-family: Nunito, Roboto;
+    font-size: 1.5rem;
 }
 
 .stat .label[data-v-815ccddc] {
-    font-family: Nunito, Roboto;
     color: white;
 }
 
 .name {
     color: white;
-    font-family: Nunito, Roboto, Helvetica;
 }
 
 .markdown .markdown-spoiler.spoiler-visible .hide-spoiler, .markdown .markdown- spoiler.spoiler-visible span {
     background: rgba(0, 0, 0, 0);
 }
 
+/* anilist home button logo (change the URL to change the image) */
 .logo img[data-v-4fbac4e1] {
     content: url("YOUR IMAGE URL HERE");
 }
 
-.html, body {
-    font-family: Nunito, Roboto;
+/* site fonts */
+html, body {
+    font-family: Rubik, Ubuntu, Heebo, Roboto, sans-serif !important;
     color: white;
 }
 
+/* long bio */
 .about .content-wrap[data-v-5c30286e] {
     max-height: 2000px;
     max-width: 700px;
@@ -134,6 +143,7 @@ a {
     border-radius: 5px;
 }
 
+/* custom scrollbar */
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -147,4 +157,15 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
     background-color: rgba(22, 27, 33);
     width: 5px;
+}
+
+/* font colors */
+h1, h2 {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header-wrap, .list-stats, .load-more, .stat .label, .time, .actions, textarea, .section-header {
+    font-family: Overpass, "Noto Sans" !important;
 }
