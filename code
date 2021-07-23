@@ -63,7 +63,7 @@ body {
 /* color scheme */
 
 .site-theme-dark {
-    --color-foreground: 22, 27, 33;
+    --color-foreground: 22, 27, 33, 0.8;
     --color-gray-100: 20,22,24;
     --color-foreground-grey: 20,22,24;
     --color-foreground-grey-dark: 17,19,20;
