@@ -63,19 +63,17 @@ body {
 /* color scheme */
 
 .site-theme-dark {
+    --color-background: 28, 32, 38;
     --color-foreground: 23,26,28, 0.8;
+    --color-foreground-blue: 23, 26, 28;
+    --color-background-100: 20,22,24;
+    --color-background-200: 17,19,20;
     --color-gray-100: 20,22,24;
-    --color-foreground-grey: 23,26,28;
-    --color-foreground-grey-dark: 8, 9, 10;
-    --color-background-100: 19,21,26;
-    --color-background-200: 19,21,26;
-    --color-background: 11,22,34;
-    --color-foreground: 21,31,46;
-    --color-foreground-blue: 15,22,31;
-    --color-foreground-blue-dark: 6,12,19;
-    --color-text: 255,255,255;
-    --color-text-light: 255,255,255;
-    --color-text-lighter: 255,255,255;
+    --color-foreground-grey: 20,22,24;
+    --color-foreground-grey-dark: 17,19,20;
+    --color-text: 255, 255, 255;
+    --color-text-light: 255, 255, 255;
+    --color-text-lighter: 255, 255, 255;
     --color-shadow-blue: 0,0,0;
     --color-background-1200: 251,251,251;
     --color-background-1100: 240,243,246;
