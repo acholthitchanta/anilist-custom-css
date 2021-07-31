@@ -18,7 +18,7 @@ body {
 
 /* name tag */
 .name[data-v-4f7beb35]::after {
-    content: "YOUR TEXT HERE";
+    content: "boba enjoyer";
     position: relative;
     top: -3px;
     left: 10px;
@@ -63,12 +63,44 @@ body {
 /* color scheme */
 
 .site-theme-dark {
-    --color-foreground: 22, 27, 33, 0.8;
+    --color-foreground: 23,26,28, 0.8;
     --color-gray-100: 20,22,24;
-    --color-foreground-grey: 20,22,24;
-    --color-foreground-grey-dark: 17,19,20;
-    --color-background-100: 20,22,24;
-    --color-background-200: 17,19,20;
+    --color-foreground-grey: 23,26,28;
+    --color-foreground-grey-dark: 8, 9, 10;
+    --color-background-100: 19,21,26;
+    --color-background-200: 19,21,26;
+    --color-background: 11,22,34;
+    --color-foreground: 21,31,46;
+    --color-foreground-blue: 15,22,31;
+    --color-foreground-blue-dark: 6,12,19;
+    --color-text: 255,255,255;
+    --color-text-light: 255,255,255;
+    --color-text-lighter: 255,255,255;
+    --color-shadow-blue: 0,0,0;
+    --color-background-1200: 251,251,251;
+    --color-background-1100: 240,243,246;
+    --color-background-1000: 230,235,240;
+    --color-background-900: 206,216,224;
+    --color-background-800: 184,198,212;
+    --color-background-700: 150,165,179;
+    --color-background-600: 122,139,153;
+    --color-background-500: 111,124,135;
+    --color-background-400: 88,99,110;
+    --color-background-300: 43,48,54;
+    --color-background-100: 35,38,43;
+    --color-background-200: 23,26,28;
+    --color-grey-1200: 251,251,251;
+    --color-grey-1100: 240,243,246;
+    --color-grey-1000: 230,235,240;
+    --color-grey-900: 206,216,224;
+    --color-grey-800: 184,198,212;
+    --color-grey-700: 150,165,179;
+    --color-grey-600: 122,139,153;
+    --color-grey-500: 111,124,135;
+    --color-grey-400: 88,99,110;
+    --color-grey-300: 43,48,54;
+    --color-grey-100: 35,38,43;
+    --color-grey-200: 23,26,28;
 }
 
 /* header option colors */
@@ -100,7 +132,7 @@ body {
 
 /* anilist home button logo (change the URL to change the image) */
 .logo img[data-v-4fbac4e1] {
-    content: url("YOUR IMAGE URL HERE");
+    content: url("https://i.postimg.cc/gJ9pGtVz/sushi.png");
 }
 
 /* site fonts */
@@ -167,10 +199,9 @@ body::-webkit-scrollbar-track {
 /* font colors */
 h1, h2 {
     color: white;
-    margin: 0;
-    padding: 0;
 }
 
 .header-wrap, .list-stats, .load-more, .stat .label, .time, .actions, textarea, .section-header {
     font-family: Overpass, "Noto Sans" !important;
+    color: white;
 }
