@@ -105,11 +105,11 @@ body {
 
 /* header option colors */
 .site-theme-dark .nav-unscoped.transparent {
-    background: rgba(22, 27, 33,.5);
+    background: rgba(23, 26, 28,.5);
 }
 
 .site-theme-dark .nav-unscoped.transparent:hover {
-    background: rgba(22, 27, 33);
+    background: rgba(23, 26, 28);
 }    
 
 /* stat value font */
