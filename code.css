@@ -68,60 +68,36 @@ body {
     --color-foreground-blue: 23, 26, 28;
     --color-background-100: 20,22,24;
     --color-background-200: 17,19,20;
+    --color-gray-100: 20,22,24;
     --color-foreground-grey: 20,22,24;
     --color-foreground-grey-dark: 17,19,20;
     --color-text: 255, 255, 255;
     --color-text-light: 255, 255, 255;
     --color-text-lighter: 255, 255, 255;
-    --color-shadow-blue: 0,0,0;
-    --color-background-1200: 251,251,251;
-    --color-background-1100: 240,243,246;
-    --color-background-1000: 230,235,240;
-    --color-background-900: 206,216,224;
-    --color-background-800: 184,198,212;
-    --color-background-700: 150,165,179;
-    --color-background-600: 122,139,153;
-    --color-background-500: 111,124,135;
-    --color-background-400: 88,99,110;
-    --color-background-300: 43,48,54;
-    --color-background-100: 35,38,43;
-    --color-background-200: 23,26,28;
-    --color-grey-1200: 251,251,251;
-    --color-grey-1100: 240,243,246;
-    --color-grey-1000: 230,235,240;
-    --color-grey-900: 206,216,224;
-    --color-grey-800: 184,198,212;
-    --color-grey-700: 150,165,179;
-    --color-grey-600: 122,139,153;
-    --color-grey-500: 111,124,135;
-    --color-grey-400: 88,99,110;
-    --color-grey-300: 43,48,54;
-    --color-grey-100: 20,22,24;
-    --color-grey-200: 23,26,28;
 }
 
 /* header option colors */
+
+.site-theme-dark .nav-unscoped {
+    background: rgba(var(--color-foreground));
+    color: 255, 255, 255;
+}
+
 .site-theme-dark .nav-unscoped.transparent {
     background: rgba(23, 26, 28,.5);
 }
 
 .site-theme-dark .nav-unscoped.transparent:hover {
     background: rgba(23, 26, 28);
+    color: white;
 }    
 
-/* stat value font */
+
+/* stat value size */
 .stat .value[data-v-815ccddc] {
-    font-family: Nunito, Roboto;
     font-size: 1.5rem;
 }
 
-.stat .label[data-v-815ccddc] {
-    color: white;
-}
-
-.name {
-    color: white;
-}
 
 .markdown .markdown-spoiler.spoiler-visible .hide-spoiler, .markdown .markdown- spoiler.spoiler-visible span {
     background: rgba(0, 0, 0, 0);
@@ -135,7 +111,6 @@ body {
 /* site fonts */
 html, body {
     font-family: Rubik, Ubuntu, Heebo, Roboto, sans-serif !important;
-    color: white;
 }
 
 /* long bio */
@@ -151,7 +126,6 @@ a {
 }
 
 .nav .link[data-v-4f7beb35] {
-    color: white;
     display: inline-block;
     margin: 0 10px;
     padding: 15px;
@@ -159,7 +133,6 @@ a {
 
 .nav[data-v-4f7beb35] {
     font-size: 1.4rem;
-    color: rgba(255, 255, 255);
     max-width: 1220px;
     text-align: center;
 }
@@ -193,12 +166,11 @@ body::-webkit-scrollbar-track {
     width: 5px;
 }
 
-/* font colors */
-h1, h2 {
-    color: white;
-}
-
 .header-wrap, .list-stats, .load-more, .stat .label, .time, .actions, textarea, .section-header {
     font-family: Overpass, "Noto Sans" !important;
-    color: white;
+}
+
+/* stats column seperation */
+.stats-wrap[data-v-5c30286e] {
+    grid-column-gap: 5px;
 }
