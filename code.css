@@ -68,7 +68,6 @@ body {
     --color-foreground-blue: 23, 26, 28;
     --color-background-100: 20,22,24;
     --color-background-200: 17,19,20;
-    --color-gray-100: 20,22,24;
     --color-foreground-grey: 20,22,24;
     --color-foreground-grey-dark: 17,19,20;
     --color-text: 255, 255, 255;
@@ -97,7 +96,7 @@ body {
     --color-grey-500: 111,124,135;
     --color-grey-400: 88,99,110;
     --color-grey-300: 43,48,54;
-    --color-grey-100: 35,38,43;
+    --color-grey-100: 20,22,24;
     --color-grey-200: 23,26,28;
 }
 
