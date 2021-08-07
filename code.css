@@ -11,7 +11,7 @@
 
 /* Background image (change the URL to change the image) */
 body {
-    background: rgb(var(--color-background)) url("BACKGROUND IMAGE URL HERE") center/100% fixed;
+    background: rgb(var(--color-background)) url("https://i.postimg.cc/CLzKg3w0/image.png") center/100% fixed;
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
@@ -74,6 +74,7 @@ body {
     --color-text: 255, 255, 255;
     --color-text-light: 255, 255, 255;
     --color-text-lighter: 255, 255, 255;
+    --color-background: linear-gradient(45deg, #2D3745 0%, #1C2026 65%);
 }
 
 /* header option colors */
