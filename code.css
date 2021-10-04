@@ -60,8 +60,8 @@ body {
     transform: scale(1.2);
     transform-style: preserve-3d;
 }
-/* color scheme */
 
+/* color scheme */
 .site-theme-dark {
     --color-background: 28, 32, 38;
     --color-foreground: 23,26,28, 0.8;
@@ -78,7 +78,6 @@ body {
 }
 
 /* header option colors */
-
 .site-theme-dark .nav-unscoped {
     background: rgba(var(--color-foreground));
     color: 255, 255, 255;
@@ -94,14 +93,14 @@ body {
 }    
 
 
-/* stat value size */
+/* stat value font size */
 .stat .value[data-v-815ccddc] {
     font-size: 1.5rem;
 }
 
 
 .markdown .markdown-spoiler.spoiler-visible .hide-spoiler, .markdown .markdown- spoiler.spoiler-visible span {
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 /* anilist home button logo (change the URL to change the image) */
@@ -111,10 +110,10 @@ body {
 
 /* site fonts */
 html, body {
-    font-family: Rubik, Ubuntu, Heebo, Roboto, sans-serif !important;
+    font-family: Overpass, sans-serif !important;
 }
 
-/* long bio */
+/* long bio stretching */
 .about .content-wrap[data-v-5c30286e] {
     max-height: 2000px;
     max-width: 700px;
@@ -151,7 +150,7 @@ a {
     border-radius: 5px;
 }
 
-/* custom scrollbar */
+/* custom scrollbar colors and stuff */
 ::-webkit-scrollbar {
     width: 5px;
 }
